@@ -1,0 +1,5 @@
+
+example:
+# Mistral 7B GGUF Q-5bit model Q5_K_M
+wget https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q5_K_M.gguf
+
