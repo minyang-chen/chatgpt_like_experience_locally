@@ -17,7 +17,7 @@ aimodel  ="models/model.gguf"
 # Set base prompt and initialize the context array for conversation dialogue
 current_date = datetime.datetime.now()
 formatted_date = current_date.strftime("%m/%d/%Y")
-baseprompt = "You are %s, a highly intelligent assistant. Keep your answers brief and accurate. Current date is %s." % (agentname, formatted_date)
+baseprompt = "You are %s, a highly intelligent assistant. Keep your answers brief and accurate. Current date is %s." % (ainame, formatted_date)
 context = [{"role": "system", "content": baseprompt}]
 
 # Function - Send prompt to LLM for response
